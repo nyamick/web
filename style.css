@@ -7,6 +7,7 @@ main {
 /*правило для элементов относящихся к классу a_footer*/
 .a_footer {
     display: block;
+    text-align: center;
 }
 h1 {
     text-align: center;
@@ -25,18 +26,19 @@ header {
     margin-top: 10px;
 
 }
-adress {
-    
+.adress {
     text-align: center;
 }
+
 
 .block_2 p{
     
     border: 2px blue solid;
     border-radius: 10px;
     padding: 10px;
-    max-width: 350px;
+    max-width: 380px;
     margin: 15px;
+    
     
 
 }
@@ -46,15 +48,35 @@ adress {
     padding: 10px;
     max-width: 360px;
     margin: 15px;
-   
+    
+
 
 }
-.block_2 p,.block_3 p {
-    float: right;
+
+
+.block_2, .block_3{
     
+    display: inline-block;
+    justify-content: center;
     
+
 }
-.block_2 h2{
-    text-align: right;
-    
+
+
+.image1{
+    border-radius:50%;
+    width: 50px;
 }
+.image2{
+    border-radius:50%;
+    width: 50px;
+
+}
+@media screen and (max-width:541px) {
+   header{
+    height: 250px;
+   }
+  }
+
+  
+  
