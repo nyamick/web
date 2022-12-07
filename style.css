@@ -7,6 +7,7 @@ main {
 /*правило для элементов относящихся к классу a_footer*/
 .a_footer {
     display: block;
+    text-align: center;
 }
 h1 {
     text-align: center;
