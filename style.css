@@ -29,11 +29,6 @@ header {
     
     text-align: center;
 }
-.all{
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: row;
-}
 
 
 .block_2 p{
