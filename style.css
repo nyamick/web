@@ -8,7 +8,10 @@ main {
 .a_footer {
     display: block;
     text-align: center;
+    
+    
 }
+
 h1 {
     text-align: center;
     padding: 20px 10px 0px 0px;
@@ -26,9 +29,7 @@ header {
     margin-top: 10px;
 
 }
-.adress {
-    text-align: center;
-}
+
 
 
 .block_2 p{
